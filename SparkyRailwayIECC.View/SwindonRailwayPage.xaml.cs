@@ -11,7 +11,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace SparkyRailwayIECC.View
+namespace SparkyRailwayIECC.Modules.View
 {
     /// <summary>
     /// Interaction logic for SwindonRailway.xaml

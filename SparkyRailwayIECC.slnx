@@ -23,7 +23,7 @@
   <Folder Name="/Modules/Trains/" />
   <Folder Name="/Modules/UserCommands/" />
   <Folder Name="/Modules/View/">
-    <Project Path="SparkyRailwayIECC.View/SparkyRailwayIECC.View.csproj" Id="0bc89177-bbad-4990-8fc0-6d40f1ade0a5" />
+    <Project Path="SparkyRailwayIECC.View/SparkyRailwayIECC.Modules.View.csproj" Id="0bc89177-bbad-4990-8fc0-6d40f1ade0a5" />
   </Folder>
   <Folder Name="/Shared/" />
 </Solution>
