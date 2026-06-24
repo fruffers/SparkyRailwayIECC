@@ -1,0 +1,29 @@
+<Solution>
+  <Folder Name="/Modules/" />
+  <Folder Name="/Modules/Alarms/" />
+  <Folder Name="/Modules/AutomaticRouteSetting/" />
+  <Folder Name="/Modules/CompositionRoot/" />
+  <Folder Name="/Modules/Interlocking/" />
+  <Folder Name="/Modules/Maps/" />
+  <Folder Name="/Modules/PanelDisplay/" />
+  <Folder Name="/Modules/RailAssets/">
+    <Project Path="SparkyRailwayIECC.RailAssets/SparkyRailwayIECC.Modules.RailAssets.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Modules/RailAssets/Assets/">
+    <File Path="Overlaps.cs" />
+    <File Path="Signals.cs" />
+    <File Path="TrackCircuits.cs" />
+    <File Path="Tracks.cs" />
+  </Folder>
+  <Folder Name="/Modules/RailAssets/Events/" />
+  <Folder Name="/Modules/RouteSetting/">
+    <Project Path="SparkyRailwayIECC.Modules.RouteSetting.Application/SparkyRailwayIECC.Modules.RouteSetting.Application.csproj" />
+  </Folder>
+  <Folder Name="/Modules/TrainDescriber/" />
+  <Folder Name="/Modules/Trains/" />
+  <Folder Name="/Modules/UserCommands/" />
+  <Folder Name="/Modules/View/">
+    <Project Path="SparkyRailwayIECC.View/SparkyRailwayIECC.View.csproj" Id="0bc89177-bbad-4990-8fc0-6d40f1ade0a5" />
+  </Folder>
+  <Folder Name="/Shared/" />
+</Solution>
