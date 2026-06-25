@@ -10,31 +10,66 @@
 
     <Canvas Background="Black">
 
-        <!-- straight horizontal track -->
+        <!-- Orange station / platform block -->
+        <Rectangle Canvas.Left="60"
+                   Canvas.Top="47"
+                   Width="210"
+                   Height="48"
+                   Fill="DarkOrange" />
+
+        <!-- Station name -->
+        <TextBlock Canvas.Left="125"
+                   Canvas.Top="63"
+                   Text="SWINDON"
+                   Foreground="Black"
+                   FontSize="16"
+                   FontWeight="Medium" 
+                   FontFamily="Consolas"/>
+
+        <!-- Platform number -->
+        <TextBlock Canvas.Left="68"
+                   Canvas.Top="63"
+                   Text="1"
+                   Foreground="Black"
+                   FontSize="14" 
+                   FontWeight="Medium"
+                   FontFamily="Consolas"/>
+
+        <!-- First track circuit -->
         <Line X1="30" Y1="100"
-          X2="300" Y2="100"
-          Stroke="Gray"
-          StrokeThickness="4" />
+              X2="294" Y2="100"
+              Stroke="White"
+              StrokeThickness="5"
+              StrokeStartLineCap="Square"
+              StrokeEndLineCap="Square" />
 
-        <!-- smooth diagonal / angled track -->
-        <Polyline
-        Points="300,100 360,100 430,180 600,180"
-        Stroke="Gray"
-        StrokeThickness="4"
-        StrokeLineJoin="Round"
-        StrokeStartLineCap="Square"
-        StrokeEndLineCap="Square" />
+        <!-- Track circuit end marker / overlap rectangle -->
+        <Rectangle Canvas.Left="291"
+                   Canvas.Top="93"
+                   Width="6"
+                   Height="14"
+                   Fill="White" />
 
-        <Polyline
-    Points="300,100 360,100 430,180"
-    Stroke="Red"
-    StrokeThickness="4"
-    StrokeLineJoin="Round" />
+        <!-- Gap between track circuits: x=297 to x=302 -->
 
-        <Polyline
-    Points="30,100 300,100"
-    Stroke="White"
-    StrokeThickness="4" />
+        <!-- Next track circuit, starts after the gap -->
+        <Polyline Points="302,100 360,100 430,180 600,180"
+                  Stroke="Gray"
+                  StrokeThickness="5"
+                  StrokeLineJoin="Round"
+                  StrokeStartLineCap="Square"
+                  StrokeEndLineCap="Square" />
+
+        <!-- Red occupied / selected part of track circuit -->
+        <Polyline Points="302,100 360,100 430,180 600,180"
+                  Stroke="Red"
+                  StrokeThickness="5"
+                  StrokeLineJoin="Round"
+                  StrokeStartLineCap="Square"
+                  StrokeEndLineCap="Square" />
+        
+
+        
 
     </Canvas>
 
