@@ -162,6 +162,60 @@
           Height="7"
           Fill="Yellow" />
 
+        <!-- Signal double yellow bracket/post: -| shape -->
+        <Line X1="630" Y1="185"
+          X2="630" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="630" Y1="190"
+          X2="627" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" />
+
+        <Ellipse Canvas.Left="620"
+          Canvas.Top="186.5"
+          Width="7"
+          Height="7"
+          Fill="Yellow" />
+
+        <Ellipse Canvas.Left="613"
+          Canvas.Top="186.5"
+          Width="7"
+          Height="7"
+          Fill="Yellow" />
+
+        <!-- Signal double yellow bracket/post: -| shape -->
+        <Line X1="640" Y1="185"
+          X2="640" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="640" Y1="190"
+          X2="643" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" />
+
+        <Ellipse Canvas.Left="643"
+          Canvas.Top="186.5"
+          Width="7"
+          Height="7"
+          Fill="Yellow" />
+
+        <Ellipse Canvas.Left="650"
+          Canvas.Top="186.5"
+          Width="7"
+          Height="7"
+          Fill="Yellow" />
+
+
+
         <!-- Signal bracket/post: -| shape -->
         <Line X1="565" Y1="185"
           X2="565" Y2="190"
@@ -345,6 +399,7 @@
                   Width="7"
                   Height="7"
                   Fill="Red" />
+
 
 
     </Canvas>
