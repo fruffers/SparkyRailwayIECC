@@ -53,7 +53,7 @@
         <!-- Gap between track circuits: x=297 to x=302 -->
 
         <!-- Next track circuit, starts after the gap -->
-        <Polyline Points="302,100 360,100 430,180 600,180"
+        <Polyline Points="302,100 360,100 430,180 700,180"
                   Stroke="Gray"
                   StrokeThickness="5"
                   StrokeLineJoin="Round"
@@ -61,7 +61,7 @@
                   StrokeEndLineCap="Square" />
 
         <!-- Red occupied / selected part of track circuit -->
-        <Polyline Points="302,100 360,100 430,180 600,180"
+        <Polyline Points="302,100 360,100 430,180 700,180"
                   Stroke="Red"
                   StrokeThickness="5"
                   StrokeLineJoin="Round"
