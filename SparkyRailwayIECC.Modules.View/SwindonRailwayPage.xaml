@@ -82,12 +82,34 @@
           StrokeThickness="2"
           StrokeStartLineCap="Square"
           StrokeEndLineCap="Square" />
-    
+
         <Ellipse Canvas.Left="568"
                   Canvas.Top="166.5"
                   Width="7"
                   Height="7"
                   Fill="Red" />
+
+
+        <!-- Signal bracket/post: -| shape -->
+        <Line X1="565" Y1="185"
+          X2="565" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="562" Y1="190"
+          X2="565" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" Height="450" Width="800" />
+
+        <Ellipse Canvas.Left="555"
+                  Canvas.Top="186.5"
+                  Width="7"
+                  Height="7"
+                  Fill="LawnGreen" />
+
 
     </Canvas>
 
