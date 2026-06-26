@@ -67,9 +67,27 @@
                   StrokeLineJoin="Round"
                   StrokeStartLineCap="Square"
                   StrokeEndLineCap="Square" />
-        
 
-        
+
+        <!-- Signal bracket/post: -| shape -->
+        <Line X1="565" Y1="176.5"
+          X2="565" Y2="170"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="565" Y1="170"
+          X2="570" Y2="170"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" />
+    
+        <Ellipse Canvas.Left="570"
+                  Canvas.Top="166"
+                  Width="8"
+                  Height="8"
+                  Fill="Red" />
 
     </Canvas>
 
