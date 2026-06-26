@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -11,14 +9,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace SparkyRailwayIECC.View
+namespace SparkyRailwayIECC.Modules.View
 {
     /// <summary>
-    /// Interaction logic for SwindonRailway.xaml
+    /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class SwindonRailway : Page
+    public partial class MainWindow : Window
     {
-        public SwindonRailway()
+        public MainWindow()
         {
             InitializeComponent();
         }

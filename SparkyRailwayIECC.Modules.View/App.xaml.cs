@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace SparkyRailwayIECC
+namespace SparkyRailwayIECC.Modules.View
 {
     /// <summary>
     /// Interaction logic for App.xaml
