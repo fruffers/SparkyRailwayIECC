@@ -89,6 +89,26 @@
                   Height="7"
                   Fill="Red" />
 
+        <!-- Signal bracket/post: -| shape -->
+        <Line X1="600" Y1="175"
+          X2="600" Y2="170"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="600" Y1="170"
+          X2="597" Y2="170"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" />
+
+        <Ellipse Canvas.Left="590"
+                  Canvas.Top="166.5"
+                  Width="7"
+                  Height="7"
+                  Fill="Red" />
+
         <!-- Signal double yellow bracket/post: -| shape -->
         <Line X1="540" Y1="175"
           X2="540" Y2="170"
@@ -131,6 +151,26 @@
           StrokeEndLineCap="Square" Height="450" Width="800" />
 
         <Ellipse Canvas.Left="555"
+                  Canvas.Top="186.5"
+                  Width="7"
+                  Height="7"
+                  Fill="LawnGreen" />
+
+        <!-- Signal bracket/post: -| shape -->
+        <Line X1="575" Y1="185"
+          X2="575" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="575" Y1="190"
+          X2="579" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" Height="450" Width="800" />
+
+        <Ellipse Canvas.Left="578"
                   Canvas.Top="186.5"
                   Width="7"
                   Height="7"
