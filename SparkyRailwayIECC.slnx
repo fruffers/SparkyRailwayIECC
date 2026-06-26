@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Documentation/">
+    <File Path="Assets.md" />
+  </Folder>
   <Folder Name="/Modules/" />
   <Folder Name="/Modules/Alarms/" />
   <Folder Name="/Modules/AutomaticRouteSetting/" />

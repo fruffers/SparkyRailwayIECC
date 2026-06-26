@@ -12,7 +12,7 @@
 
         <!-- Orange station / platform block -->
         <Rectangle Canvas.Left="60"
-                   Canvas.Top="47"
+                   Canvas.Top="48.5"
                    Width="210"
                    Height="48"
                    Fill="DarkOrange" />
@@ -109,6 +109,42 @@
                   Width="7"
                   Height="7"
                   Fill="LawnGreen" />
+
+
+        <!-- Shunt signal: -| shape -->
+        <Line X1="500" Y1="185"
+          X2="500" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="500" Y1="190"
+          X2="497" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" Height="450" Width="800" />
+
+        <Ellipse Canvas.Left="491"
+                  Canvas.Top="182.5"
+                  Width="10"
+                  Height="10"
+                  Fill="Red" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Top" >
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+            <Ellipse.Clip>
+                <!-- top-right quarter -->
+                <RectangleGeometry Rect="5,0,5,5" />
+            </Ellipse.Clip>
+        </Ellipse>
+
+
 
 
     </Canvas>
