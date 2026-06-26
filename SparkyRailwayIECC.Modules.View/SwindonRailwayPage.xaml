@@ -236,6 +236,38 @@
             </Ellipse.Clip>
         </Ellipse>
 
+        <!-- Shunt signal: -| shape -->
+        <Line X1="510" Y1="185"
+          X2="510" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="510" Y1="190"
+          X2="513" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" Height="450" Width="800" />
+
+        <Ellipse Canvas.Left="506"
+                  Canvas.Top="180.5"
+                  Width="13"
+                  Height="13"
+                  Fill="Red" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Top" >
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+            <Ellipse.Clip>
+                <!-- top-right quarter -->
+                <RectangleGeometry Rect="6.5,0,10,6.5" />
+            </Ellipse.Clip>
+        </Ellipse>
 
 
         <!-- Shunt with main signal: -| shape -->
