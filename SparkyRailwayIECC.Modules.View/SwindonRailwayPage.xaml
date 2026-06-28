@@ -263,6 +263,31 @@
                   Height="7"
                   Fill="LawnGreen" />
 
+        <!-- Automatic Signal bracket/post: -| shape -->
+        <Line X1="695" Y1="185"
+          X2="695" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="697" Y1="187"
+          X2="697" Y2="193"
+          Stroke="Gray"
+          StrokeThickness="1"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="697" Y1="190"
+          X2="695" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" Height="450" Width="800" />
+
+        <Ellipse Canvas.Left="697.8"
+                  Canvas.Top="186.5"
+                  Width="7"
+                  Height="7"
+                  Fill="LawnGreen" />
 
 
         <!-- Signal bracket/post: -| shape -->
