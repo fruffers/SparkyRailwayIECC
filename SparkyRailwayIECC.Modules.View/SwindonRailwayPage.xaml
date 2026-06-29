@@ -53,7 +53,7 @@
         <!-- Gap between track circuits: x=297 to x=302 -->
 
         <!-- Next track circuit, starts after the gap -->
-        <Polyline Points="302,100 360,100 430,180 600,180"
+        <Polyline Points="302,100 360,100 430,180 780,180"
                   Stroke="Gray"
                   StrokeThickness="5"
                   StrokeLineJoin="Round"
@@ -61,7 +61,7 @@
                   StrokeEndLineCap="Square" />
 
         <!-- Red occupied / selected part of track circuit -->
-        <Polyline Points="302,100 360,100 430,180 600,180"
+        <Polyline Points="302,100 360,100 430,180 780,180"
                   Stroke="Red"
                   StrokeThickness="5"
                   StrokeLineJoin="Round"
@@ -89,6 +89,132 @@
                   Height="7"
                   Fill="Red" />
 
+        <!-- Signal bracket/post: -| shape -->
+        <Line X1="600" Y1="175"
+          X2="600" Y2="170"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="600" Y1="170"
+          X2="597" Y2="170"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" />
+
+        <Ellipse Canvas.Left="590"
+                  Canvas.Top="166.5"
+                  Width="7"
+                  Height="7"
+                  Fill="Red" />
+
+        <!-- Signal double yellow bracket/post: -| shape -->
+        <Line X1="640" Y1="175"
+          X2="640" Y2="170"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="640" Y1="170"
+          X2="643" Y2="170"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" />
+
+        <Ellipse Canvas.Left="643"
+          Canvas.Top="166.5"
+          Width="7"
+          Height="7"
+          Fill="Yellow" />
+
+        <Ellipse Canvas.Left="650"
+          Canvas.Top="166.5"
+          Width="7"
+          Height="7"
+          Fill="Yellow" />
+
+
+        <!-- Signal double yellow bracket/post: -| shape -->
+        <Line X1="630" Y1="175"
+          X2="630" Y2="170"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="630" Y1="170"
+          X2="627" Y2="170"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" />
+
+        <Ellipse Canvas.Left="620"
+          Canvas.Top="166.5"
+          Width="7"
+          Height="7"
+          Fill="Yellow" />
+
+        <Ellipse Canvas.Left="613"
+          Canvas.Top="166.5"
+          Width="7"
+          Height="7"
+          Fill="Yellow" />
+
+        <!-- Signal double yellow bracket/post: -| shape -->
+        <Line X1="630" Y1="185"
+          X2="630" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="630" Y1="190"
+          X2="627" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" />
+
+        <Ellipse Canvas.Left="620"
+          Canvas.Top="186.5"
+          Width="7"
+          Height="7"
+          Fill="Yellow" />
+
+        <Ellipse Canvas.Left="613"
+          Canvas.Top="186.5"
+          Width="7"
+          Height="7"
+          Fill="Yellow" />
+
+        <!-- Signal double yellow bracket/post: -| shape -->
+        <Line X1="640" Y1="185"
+          X2="640" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="640" Y1="190"
+          X2="643" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" />
+
+        <Ellipse Canvas.Left="643"
+          Canvas.Top="186.5"
+          Width="7"
+          Height="7"
+          Fill="Yellow" />
+
+        <Ellipse Canvas.Left="650"
+          Canvas.Top="186.5"
+          Width="7"
+          Height="7"
+          Fill="Yellow" />
+
+
 
         <!-- Signal bracket/post: -| shape -->
         <Line X1="565" Y1="185"
@@ -105,6 +231,80 @@
           StrokeEndLineCap="Square" Height="450" Width="800" />
 
         <Ellipse Canvas.Left="555"
+                  Canvas.Top="186.5"
+                  Width="7"
+                  Height="7"
+                  Fill="LawnGreen" />
+
+
+        <!-- Automatic Signal bracket/post: -| shape -->
+        <Line X1="685" Y1="185"
+          X2="685" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="683" Y1="187"
+          X2="683" Y2="193"
+          Stroke="Gray"
+          StrokeThickness="1"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="685" Y1="190"
+          X2="682" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" Height="450" Width="800" />
+
+        <Ellipse Canvas.Left="675"
+                  Canvas.Top="186.5"
+                  Width="7"
+                  Height="7"
+                  Fill="LawnGreen" />
+
+        <!-- Automatic Signal bracket/post: -| shape -->
+        <Line X1="695" Y1="185"
+          X2="695" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="697" Y1="187"
+          X2="697" Y2="193"
+          Stroke="Gray"
+          StrokeThickness="1"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="697" Y1="190"
+          X2="695" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" Height="450" Width="800" />
+
+        <Ellipse Canvas.Left="697.8"
+                  Canvas.Top="186.5"
+                  Width="7"
+                  Height="7"
+                  Fill="LawnGreen" />
+
+
+        <!-- Signal bracket/post: -| shape -->
+        <Line X1="575" Y1="185"
+          X2="575" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="575" Y1="190"
+          X2="579" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" Height="450" Width="800" />
+
+        <Ellipse Canvas.Left="578"
                   Canvas.Top="186.5"
                   Width="7"
                   Height="7"
@@ -144,8 +344,296 @@
             </Ellipse.Clip>
         </Ellipse>
 
+        <!-- Shunt signal: -| shape -->
+        <Line X1="510" Y1="185"
+          X2="510" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="510" Y1="190"
+          X2="513" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" Height="450" Width="800" />
+
+        <Ellipse Canvas.Left="506"
+                  Canvas.Top="180.5"
+                  Width="13"
+                  Height="13"
+                  Fill="Red" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Top" >
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+            <Ellipse.Clip>
+                <!-- top-right quarter -->
+                <RectangleGeometry Rect="6.5,0,10,6.5" />
+            </Ellipse.Clip>
+        </Ellipse>
+
+        <!-- Shunt signal: -| shape -->
+        <Line X1="510" Y1="175"
+          X2="510" Y2="170"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="510" Y1="170"
+          X2="513" Y2="170"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" Height="450" Width="800" />
+
+        <Ellipse Canvas.Left="506"
+                  Canvas.Top="160.5"
+                  Width="13"
+                  Height="13"
+                  Fill="Red" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Top" >
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+            <Ellipse.Clip>
+                <!-- top-right quarter -->
+                <RectangleGeometry Rect="6.5,0,10,6.5" />
+            </Ellipse.Clip>
+        </Ellipse>
+
+        <!-- Shunt signal: -| shape -->
+        <Line X1="500" Y1="175"
+          X2="500" Y2="170"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="500" Y1="170"
+          X2="497" Y2="170"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" Height="450" Width="800" />
+
+        <Ellipse Canvas.Left="491"
+                  Canvas.Top="160.5"
+                  Width="13"
+                  Height="13"
+                  Fill="Red" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Top" >
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+            <Ellipse.Clip>
+                <!-- top-right quarter -->
+                <RectangleGeometry Rect="6.5,0,10,6.5" />
+            </Ellipse.Clip>
+        </Ellipse>
 
 
+        <!-- Shunt with main signal: -| shape -->
+        <Line X1="450" Y1="185"
+          X2="450" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="450" Y1="190"
+          X2="447" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" Height="450" Width="800" />
+
+        <Ellipse Canvas.Left="441"
+                  Canvas.Top="180.5"
+                  Width="13"
+                  Height="13"
+                  Fill="Gray" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Top" >
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+            <Ellipse.Clip>
+                <!-- top-right quarter -->
+                <RectangleGeometry Rect="6.5,0,10,6.5" />
+            </Ellipse.Clip>
+        </Ellipse>
+        <Ellipse Canvas.Left="434"
+                  Canvas.Top="186.5"
+                  Width="7"
+                  Height="7"
+                  Fill="Red" />
+
+        <!-- Shunt with main signal: -| shape -->
+        <Line X1="460" Y1="185"
+          X2="460" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="460" Y1="190"
+          X2="463" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" Height="450" Width="800" />
+
+        <Ellipse Canvas.Left="456"
+                  Canvas.Top="180.5"
+                  Width="13"
+                  Height="13"
+                  Fill="Gray" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Top" >
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+            <Ellipse.Clip>
+                <!-- top-right quarter -->
+                <RectangleGeometry Rect="6.5,0,10,6.5" />
+            </Ellipse.Clip>
+        </Ellipse>
+        <Ellipse Canvas.Left="469"
+                  Canvas.Top="186.5"
+                  Width="7"
+                  Height="7"
+                  Fill="Red" />
+
+        <!-- Shunt with main signal: -| shape -->
+        <Line X1="460" Y1="175"
+          X2="460" Y2="170"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="460" Y1="170"
+          X2="463" Y2="170"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" Height="450" Width="800" />
+
+        <Ellipse Canvas.Left="456"
+                  Canvas.Top="160.5"
+                  Width="13"
+                  Height="13"
+                  Fill="Gray" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Top" >
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+            <Ellipse.Clip>
+                <!-- top-right quarter -->
+                <RectangleGeometry Rect="6.5,0,10,6.5" />
+            </Ellipse.Clip>
+        </Ellipse>
+        <Ellipse Canvas.Left="469"
+                  Canvas.Top="166.5"
+                  Width="7"
+                  Height="7"
+                  Fill="Red" />
+        
+        <!-- Shunt with main signal: -| shape -->
+        <Line X1="450" Y1="185"
+          X2="450" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="450" Y1="190"
+          X2="447" Y2="190"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" Height="450" Width="800" />
+
+        <Ellipse Canvas.Left="441"
+                  Canvas.Top="180.5"
+                  Width="13"
+                  Height="13"
+                  Fill="Gray" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Top" >
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+            <Ellipse.Clip>
+                <!-- top-right quarter -->
+                <RectangleGeometry Rect="6.5,0,10,6.5" />
+            </Ellipse.Clip>
+        </Ellipse>
+        <Ellipse Canvas.Left="434"
+                  Canvas.Top="186.5"
+                  Width="7"
+                  Height="7"
+                  Fill="Red" />
+
+
+        <!-- Shunt with main signal: -| shape -->
+        <Line X1="450" Y1="175"
+          X2="450" Y2="170"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square" />
+
+        <Line X1="450" Y1="170"
+          X2="447" Y2="170"
+          Stroke="Gray"
+          StrokeThickness="2"
+          StrokeStartLineCap="Square"
+          StrokeEndLineCap="Square" Height="450" Width="800" />
+
+        <Ellipse Canvas.Left="441"
+                  Canvas.Top="160.5"
+                  Width="13"
+                  Height="13"
+                  Fill="Gray" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Top" >
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+            <Ellipse.Clip>
+                <!-- top-right quarter -->
+                <RectangleGeometry Rect="6.5,0,10,6.5" />
+            </Ellipse.Clip>
+        </Ellipse>
+        <Ellipse Canvas.Left="434"
+                  Canvas.Top="166.5"
+                  Width="7"
+                  Height="7"
+                  Fill="Red" />
 
     </Canvas>
 
