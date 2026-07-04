@@ -69,6 +69,23 @@
                   StrokeEndLineCap="Square" />
 
 
+        <!-- First track circuit -->
+        <Line X1="30" Y1="300"
+              X2="500" Y2="300"
+              Stroke="Gray"
+              StrokeThickness="5"
+              StrokeStartLineCap="Square"
+              StrokeEndLineCap="Square" />
+
+        <!-- Track circuit end marker / overlap rectangle -->
+        <Rectangle Canvas.Left="497"
+                   Canvas.Top="293"
+                   Width="6"
+                   Height="14"
+                   Fill="Gray" />
+
+
+
         <!-- Signal bracket/post: -| shape -->
         <Line X1="565" Y1="175"
           X2="565" Y2="170"
