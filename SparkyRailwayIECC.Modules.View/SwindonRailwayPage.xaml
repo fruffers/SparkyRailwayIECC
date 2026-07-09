@@ -261,10 +261,10 @@
           StrokeThickness="2"
           StrokeStartLineCap="Square" />
 
-        <Line X1="683" Y1="187"
+        <Line X1="683" Y1="188"
           X2="683" Y2="193"
           Stroke="Gray"
-          StrokeThickness="1"
+          StrokeThickness="1.5"
           StrokeStartLineCap="Square" />
 
         <Line X1="685" Y1="190"
@@ -287,10 +287,10 @@
           StrokeThickness="2"
           StrokeStartLineCap="Square" />
 
-        <Line X1="697" Y1="187"
+        <Line X1="697" Y1="188"
           X2="697" Y2="193"
           Stroke="Gray"
-          StrokeThickness="1"
+          StrokeThickness="1.5"
           StrokeStartLineCap="Square" />
 
         <Line X1="697" Y1="190"
@@ -313,10 +313,10 @@
           StrokeThickness="2"
           StrokeStartLineCap="Square" />
 
-        <Line X1="697" Y1="167"
+        <Line X1="697" Y1="168"
           X2="697" Y2="173"
           Stroke="Gray"
-          StrokeThickness="1"
+          StrokeThickness="1.5"
           StrokeStartLineCap="Square" />
 
         <Line X1="697" Y1="170"
@@ -339,10 +339,10 @@
           StrokeThickness="2"
           StrokeStartLineCap="Square" />
 
-        <Line X1="683" Y1="167"
+        <Line X1="683" Y1="168"
           X2="683" Y2="173"
           Stroke="Gray"
-          StrokeThickness="1"
+          StrokeThickness="1.5"
           StrokeStartLineCap="Square" />
 
         <Line X1="685" Y1="170"
