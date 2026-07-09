@@ -703,6 +703,41 @@
                   Width="7"
                   Height="7"
                   Fill="Red" />
+        
+        
+        <!-- Lower line -->
+        <!-- Signal bracket/post: -| shape -->
+        <Line X1="165" Y1="290"
+              X2="165" Y2="295"
+              Stroke="Gray"
+              StrokeThickness="2"
+              StrokeStartLineCap="Square" />
+
+        <Line X1="165" Y1="290"
+              X2="168" Y2="290"
+              Stroke="Gray"
+              StrokeThickness="2"
+              StrokeStartLineCap="Square"
+              StrokeEndLineCap="Square" />
+
+        <Ellipse Canvas.Left="168"
+                 Canvas.Top="286.5"
+                 Width="7"
+                 Height="7"
+                 Fill="Red" />
+        
+        
+        <!-- Automatic blue circle -->
+        <Ellipse Canvas.Left="150"
+                 Canvas.Top="286.5"
+                 Width="7"
+                 Height="7"
+                 Stroke="DodgerBlue" />
+        
+        <TextBlock Margin="157,284,0,0" Foreground="DodgerBlue" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
+          A
+        </TextBlock>
+
 
     </Canvas>
 
