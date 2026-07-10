@@ -83,9 +83,10 @@
                    Width="6"
                    Height="14"
                    Fill="Gray" />
-
-
-
+        
+        <Polygon Points="427,293 434,293 487,187 480,187"
+                 Fill="Gray" />
+      
         <!-- Signal bracket/post: -| shape -->
         <Line X1="565" Y1="175"
           X2="565" Y2="170"
