@@ -766,7 +766,7 @@
         
         <!-- Automatic blue circle -->
         <Ellipse Canvas.Left="273"
-                 Canvas.Top="304.5"
+                 Canvas.Top="304"
                  Width="7"
                  Height="7"
                  Stroke="DodgerBlue" />
@@ -803,7 +803,7 @@
         
         <!-- Emergency red circle -->
         <Ellipse Canvas.Left="693"
-                 Canvas.Top="289"
+                 Canvas.Top="288"
                  Width="7"
                  Height="7"
                  Stroke="Red" />
