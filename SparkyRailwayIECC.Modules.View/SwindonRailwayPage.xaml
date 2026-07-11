@@ -69,22 +69,27 @@
                   StrokeEndLineCap="Square" />
 
 
-        <!-- First track circuit -->
+        <!-- First track circuit (Extended to X2=780 to support the new point) -->
         <Line X1="30" Y1="300"
-              X2="500" Y2="300"
+              X2="780" Y2="300"
               Stroke="Gray"
               StrokeThickness="5"
               StrokeStartLineCap="Square"
               StrokeEndLineCap="Square" />
 
-        <!-- Track circuit end marker / overlap rectangle -->
-        <Rectangle Canvas.Left="497"
+        <!-- Track circuit end marker / overlap rectangle (Moved to the new end) -->
+        <Rectangle Canvas.Left="777"
                    Canvas.Top="293"
                    Width="6"
                    Height="14"
                    Fill="Gray" />
         
+        <!-- Existing Point ( / Shape ) -->
         <Polygon Points="427,293 433,293 486,187 480,187"
+                 Fill="Gray" />
+                 
+        <!-- NEW Point ( \ Shape ) facing the other way -->
+        <Polygon Points="710,187 716,187 769,293 763,293"
                  Fill="Gray" />
       
         <!-- Signal bracket/post: -| shape -->
