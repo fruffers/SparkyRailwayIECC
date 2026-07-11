@@ -848,6 +848,22 @@
         <TextBlock Margin="638,286,0,0" Foreground="Red" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
           E
         </TextBlock>
+        
+        <!-- End of track -->
+        <Line X1="23" Y1="305"
+              X2="23" Y2="95"
+              Stroke="Gray"
+              StrokeThickness="2"
+              StrokeStartLineCap="Square"
+              StrokeEndLineCap="Square" Height="450" Width="800" />
+        
+        <TextBlock Margin="20,306,0,0" Foreground="Gray" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
+          A
+        </TextBlock>
+        
+        <TextBlock Margin="20,83,0,0" Foreground="Gray" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
+          A
+        </TextBlock>
 
     </Canvas>
 
