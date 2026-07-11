@@ -802,7 +802,7 @@
                  Fill="LawnGreen" />
         
         <!-- Emergency red circle -->
-        <Ellipse Canvas.Left="693"
+        <Ellipse Canvas.Left="692"
                  Canvas.Top="288"
                  Width="7"
                  Height="7"
