@@ -765,16 +765,52 @@
                  Fill="LawnGreen" />
         
         <!-- Automatic blue circle -->
-        <Ellipse Canvas.Left="267"
+        <Ellipse Canvas.Left="273"
                  Canvas.Top="304.5"
                  Width="7"
                  Height="7"
                  Stroke="DodgerBlue" />
         
-        <TextBlock Margin="274,302,0,0" Foreground="DodgerBlue" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
+        <TextBlock Margin="267,302,0,0" Foreground="DodgerBlue" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
           A
         </TextBlock>
+        
+        <!-- Automatic Signal bracket/post: -| shape -->
+        <Line X1="685" Y1="295"
+              X2="685" Y2="290"
+              Stroke="Gray"
+              StrokeThickness="2"
+              StrokeStartLineCap="Square" />
 
+        <Line X1="683" Y1="288"
+              X2="683" Y2="293"
+              Stroke="Gray"
+              StrokeThickness="1.5"
+              StrokeStartLineCap="Square" />
+
+        <Line X1="685" Y1="290"
+              X2="682" Y2="290"
+              Stroke="Gray"
+              StrokeThickness="2"
+              StrokeStartLineCap="Square"
+              StrokeEndLineCap="Square" Height="450" Width="800" />
+
+        <Ellipse Canvas.Left="675"
+                 Canvas.Top="286.5"
+                 Width="7"
+                 Height="7"
+                 Fill="LawnGreen" />
+        
+        <!-- Emergency red circle -->
+        <Ellipse Canvas.Left="693"
+                 Canvas.Top="289"
+                 Width="7"
+                 Height="7"
+                 Stroke="Red" />
+        
+        <TextBlock Margin="687,286,0,0" Foreground="Red" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
+          E
+        </TextBlock>
 
     </Canvas>
 
