@@ -864,6 +864,37 @@
         <TextBlock Margin="20,83,0,0" Foreground="Gray" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
           A
         </TextBlock>
+        
+        <!-- Signal bracket/post: -| shape -->
+        <Line X1="320" Y1="305"
+              X2="320" Y2="310"
+              Stroke="Gray"
+              StrokeThickness="2"
+              StrokeStartLineCap="Square" />
+
+        <Line X1="320" Y1="310"
+              X2="323" Y2="310"
+              Stroke="Gray"
+              StrokeThickness="2"
+              StrokeStartLineCap="Square"
+              StrokeEndLineCap="Square" Height="450" Width="800" />
+
+        <Ellipse Canvas.Left="324"
+                 Canvas.Top="306.5"
+                 Width="7"
+                 Height="7"
+                 Fill="LawnGreen" />
+        
+        <!-- Automatic blue circle -->
+        <Ellipse Canvas.Left="305.5"
+                 Canvas.Top="304.5"
+                 Width="7"
+                 Height="7"
+                 Stroke="DodgerBlue" />
+        
+        <TextBlock Margin="313,302,0,0" Foreground="DodgerBlue" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
+          A
+        </TextBlock>
 
     </Canvas>
 
