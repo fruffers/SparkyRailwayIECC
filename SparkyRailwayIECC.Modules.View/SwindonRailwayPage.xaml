@@ -52,8 +52,8 @@
 
         <!-- Gap between track circuits: x=297 to x=302 -->
 
-        <!-- Next track circuit, starts after the gap -->
-        <Polyline Points="302,100 360,100 430,180 780,180"
+        <!-- Next track circuit, starts after the gap (Angled more vertically: X drops from 360 to 400 instead of 430) -->
+        <Polyline Points="302,100 360,100 400,180 780,180"
                   Stroke="Gray"
                   StrokeThickness="5"
                   StrokeLineJoin="Round"
@@ -61,7 +61,7 @@
                   StrokeEndLineCap="Square" />
 
         <!-- Red occupied / selected part of track circuit -->
-        <Polyline Points="302,100 360,100 430,180 780,180"
+        <Polyline Points="302,100 360,100 400,180 780,180"
                   Stroke="Red"
                   StrokeThickness="5"
                   StrokeLineJoin="Round"
@@ -69,27 +69,27 @@
                   StrokeEndLineCap="Square" />
 
 
-        <!-- First track circuit (Extended to X2=780 to support the new point) -->
-        <Line X1="30" Y1="300"
-              X2="780" Y2="300"
+        <!-- Second track circuit -->
+        <Line X1="30" Y1="230"
+              X2="780" Y2="230"
               Stroke="Gray"
               StrokeThickness="5"
               StrokeStartLineCap="Square"
               StrokeEndLineCap="Square" />
 
-        <!-- Track circuit end marker / overlap rectangle (Moved to the new end) -->
+        <!-- Track circuit end marker / overlap rectangle -->
         <Rectangle Canvas.Left="777"
-                   Canvas.Top="293"
+                   Canvas.Top="223"
                    Width="6"
                    Height="14"
                    Fill="Gray" />
         
-        <!-- Existing Point ( / Shape ) -->
-        <Polygon Points="427,293 433,293 486,187 480,187"
+        <!-- Existing Point ( / Shape ) Angled more vertically and placed into the gap -->
+        <Polygon Points="402,223 408,223 422,187 416,187"
                  Fill="Gray" />
                  
-        <!-- NEW Point ( \ Shape ) facing the other way -->
-        <Polygon Points="710,187 716,187 769,293 763,293"
+        <!-- NEW Point ( \ Shape ) facing the other way - Angled more vertically -->
+        <Polygon Points="710,187 716,187 730,223 724,223"
                  Fill="Gray" />
       
         <!-- Signal bracket/post: -| shape -->
@@ -713,21 +713,21 @@
         
         <!-- Lower line -->
         <!-- Signal bracket/post: -| shape -->
-        <Line X1="165" Y1="290"
-              X2="165" Y2="295"
+        <Line X1="165" Y1="220"
+              X2="165" Y2="225"
               Stroke="Gray"
               StrokeThickness="2"
               StrokeStartLineCap="Square" />
 
-        <Line X1="165" Y1="290"
-              X2="168" Y2="290"
+        <Line X1="165" Y1="220"
+              X2="168" Y2="220"
               Stroke="Gray"
               StrokeThickness="2"
               StrokeStartLineCap="Square"
               StrokeEndLineCap="Square" />
 
         <Ellipse Canvas.Left="168"
-                 Canvas.Top="286.5"
+                 Canvas.Top="216.5"
                  Width="7"
                  Height="7"
                  Fill="Red" />
@@ -735,129 +735,129 @@
         
         <!-- Automatic blue circle -->
         <Ellipse Canvas.Left="150"
-                 Canvas.Top="288.5"
+                 Canvas.Top="218.5"
                  Width="7"
                  Height="7"
                  Stroke="DodgerBlue" />
         
-        <TextBlock Margin="157,286,0,0" Foreground="DodgerBlue" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
+        <TextBlock Margin="157,216,0,0" Foreground="DodgerBlue" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
           A
         </TextBlock>
         
         <!-- Signal bracket/post: -| shape -->
-        <Line X1="265" Y1="305"
-              X2="265" Y2="310"
+        <Line X1="265" Y1="235"
+              X2="265" Y2="240"
               Stroke="Gray"
               StrokeThickness="2"
               StrokeStartLineCap="Square" />
 
-        <Line X1="262" Y1="310"
-              X2="265" Y2="310"
+        <Line X1="262" Y1="240"
+              X2="265" Y2="240"
               Stroke="Gray"
               StrokeThickness="2"
               StrokeStartLineCap="Square"
               StrokeEndLineCap="Square" Height="450" Width="800" />
 
         <Ellipse Canvas.Left="255"
-                 Canvas.Top="306.5"
+                 Canvas.Top="236.5"
                  Width="7"
                  Height="7"
                  Fill="LawnGreen" />
         
         <!-- Automatic blue circle -->
         <Ellipse Canvas.Left="272.5"
-                 Canvas.Top="304.5"
+                 Canvas.Top="234.5"
                  Width="7"
                  Height="7"
                  Stroke="DodgerBlue" />
         
-        <TextBlock Margin="267,302,0,0" Foreground="DodgerBlue" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
+        <TextBlock Margin="267,232,0,0" Foreground="DodgerBlue" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
           A
         </TextBlock>
         
         <!-- Automatic Signal bracket/post: -| shape -->
-        <Line X1="685" Y1="295"
-              X2="685" Y2="290"
+        <Line X1="685" Y1="225"
+              X2="685" Y2="220"
               Stroke="Gray"
               StrokeThickness="2"
               StrokeStartLineCap="Square" />
 
-        <Line X1="683" Y1="288"
-              X2="683" Y2="293"
+        <Line X1="683" Y1="218"
+              X2="683" Y2="223"
               Stroke="Gray"
               StrokeThickness="1.5"
               StrokeStartLineCap="Square" />
 
-        <Line X1="685" Y1="290"
-              X2="682" Y2="290"
+        <Line X1="685" Y1="220"
+              X2="682" Y2="220"
               Stroke="Gray"
               StrokeThickness="2"
               StrokeStartLineCap="Square"
               StrokeEndLineCap="Square" Height="450" Width="800" />
 
         <Ellipse Canvas.Left="675"
-                 Canvas.Top="286.5"
+                 Canvas.Top="216.5"
                  Width="7"
                  Height="7"
                  Fill="LawnGreen" />
         
         <!-- Emergency red circle -->
         <Ellipse Canvas.Left="692"
-                 Canvas.Top="288.5"
+                 Canvas.Top="218.5"
                  Width="7"
                  Height="7"
                  Stroke="Red" />
         
-        <TextBlock Margin="687,286,0,0" Foreground="Red" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
+        <TextBlock Margin="687,216,0,0" Foreground="Red" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
           E
         </TextBlock>
         
         <!-- Automatic Signal bracket/post: -| shape -->
-        <Line X1="645" Y1="295"
-              X2="645" Y2="290"
+        <Line X1="645" Y1="225"
+              X2="645" Y2="220"
               Stroke="Gray"
               StrokeThickness="2"
               StrokeStartLineCap="Square" />
 
-        <Line X1="647" Y1="288"
-              X2="647" Y2="293"
+        <Line X1="647" Y1="218"
+              X2="647" Y2="223"
               Stroke="Gray"
               StrokeThickness="1.5"
               StrokeStartLineCap="Square" />
 
-        <Line X1="647" Y1="290"
-              X2="645" Y2="290"
+        <Line X1="647" Y1="220"
+              X2="645" Y2="220"
               Stroke="Gray"
               StrokeThickness="2"
               StrokeStartLineCap="Square"
               StrokeEndLineCap="Square" Height="450" Width="800" />
 
         <Ellipse Canvas.Left="647.8"
-                 Canvas.Top="286.5"
+                 Canvas.Top="216.5"
                  Width="7"
                  Height="7"
                  Fill="LawnGreen" />
         
         <!-- Emergency red circle -->
         <Ellipse Canvas.Left="631"
-                 Canvas.Top="288.5"
+                 Canvas.Top="218.5"
                  Width="7"
                  Height="7"
                  Stroke="Red" />
         
-        <TextBlock Margin="638,286,0,0" Foreground="Red" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
+        <TextBlock Margin="638,216,0,0" Foreground="Red" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
           E
         </TextBlock>
         
         <!-- End of track -->
-        <Line X1="23" Y1="305"
+        <Line X1="23" Y1="235"
               X2="23" Y2="95"
               Stroke="Gray"
               StrokeThickness="2"
               StrokeStartLineCap="Square"
               StrokeEndLineCap="Square" Height="450" Width="800" />
         
-        <TextBlock Margin="20,306,0,0" Foreground="Gray" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
+        <TextBlock Margin="20,236,0,0" Foreground="Gray" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
           A
         </TextBlock>
         
@@ -866,52 +866,52 @@
         </TextBlock>
         
         <!-- Signal bracket/post: -| shape -->
-        <Line X1="320" Y1="305"
-              X2="320" Y2="310"
+        <Line X1="320" Y1="235"
+              X2="320" Y2="240"
               Stroke="Gray"
               StrokeThickness="2"
               StrokeStartLineCap="Square" />
 
-        <Line X1="320" Y1="310"
-              X2="323" Y2="310"
+        <Line X1="320" Y1="240"
+              X2="323" Y2="240"
               Stroke="Gray"
               StrokeThickness="2"
               StrokeStartLineCap="Square"
               StrokeEndLineCap="Square" Height="450" Width="800" />
 
         <Ellipse Canvas.Left="324"
-                 Canvas.Top="306.5"
+                 Canvas.Top="236.5"
                  Width="7"
                  Height="7"
                  Fill="LawnGreen" />
         
         <!-- Automatic blue circle -->
         <Ellipse Canvas.Left="305.5"
-                 Canvas.Top="304.5"
+                 Canvas.Top="234.5"
                  Width="7"
                  Height="7"
                  Stroke="DodgerBlue" />
         
-        <TextBlock Margin="313,302,0,0" Foreground="DodgerBlue" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
+        <TextBlock Margin="313,232,0,0" Foreground="DodgerBlue" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
           A
         </TextBlock>
         
         <!-- Signal bracket/post: -| shape -->
-        <Line X1="220" Y1="290"
-              X2="220" Y2="295"
+        <Line X1="220" Y1="220"
+              X2="220" Y2="225"
               Stroke="Gray"
               StrokeThickness="2"
               StrokeStartLineCap="Square" />
 
-        <Line X1="220" Y1="290"
-              X2="216" Y2="290"
+        <Line X1="220" Y1="220"
+              X2="216" Y2="220"
               Stroke="Gray"
               StrokeThickness="2"
               StrokeStartLineCap="Square"
               StrokeEndLineCap="Square" />
 
         <Ellipse Canvas.Left="210"
-                 Canvas.Top="286.5"
+                 Canvas.Top="216.5"
                  Width="7"
                  Height="7"
                  Fill="Red" />
@@ -919,103 +919,103 @@
         
         <!-- Automatic blue circle -->
         <Ellipse Canvas.Left="229"
-                 Canvas.Top="288.5"
+                 Canvas.Top="218.5"
                  Width="7"
                  Height="7"
                  Stroke="DodgerBlue" />
         
-        <TextBlock Margin="223,286,0,0" Foreground="DodgerBlue" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
+        <TextBlock Margin="223,216,0,0" Foreground="DodgerBlue" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
           A
         </TextBlock>
         
         <!-- Automatic Signal bracket/post: -| shape -->
-        <Line X1="645" Y1="305"
-              X2="645" Y2="310"
+        <Line X1="645" Y1="235"
+              X2="645" Y2="240"
               Stroke="Gray"
               StrokeThickness="2"
               StrokeStartLineCap="Square" />
 
-        <Line X1="647" Y1="308"
-              X2="647" Y2="313"
+        <Line X1="647" Y1="238"
+              X2="647" Y2="243"
               Stroke="Gray"
               StrokeThickness="1.5"
               StrokeStartLineCap="Square" />
 
-        <Line X1="647" Y1="310"
-              X2="645" Y2="310"
+        <Line X1="647" Y1="240"
+              X2="645" Y2="240"
               Stroke="Gray"
               StrokeThickness="2"
               StrokeStartLineCap="Square"
               StrokeEndLineCap="Square" Height="450" Width="800" />
 
         <Ellipse Canvas.Left="647.8"
-                 Canvas.Top="306.5"
+                 Canvas.Top="236.5"
                  Width="7"
                  Height="7"
                  Fill="LawnGreen" />
         
         <!-- Emergency red circle -->
         <Ellipse Canvas.Left="631"
-                 Canvas.Top="304"
+                 Canvas.Top="234"
                  Width="7"
                  Height="7"
                  Stroke="Red" />
         
-        <TextBlock Margin="638,301.5,0,0" Foreground="Red" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
+        <TextBlock Margin="638,231.5,0,0" Foreground="Red" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
           E
         </TextBlock>
         
         <!-- Automatic Signal bracket/post: -| shape -->
-        <Line X1="685" Y1="305"
-              X2="685" Y2="310"
+        <Line X1="685" Y1="235"
+              X2="685" Y2="240"
               Stroke="Gray"
               StrokeThickness="2"
               StrokeStartLineCap="Square" />
 
-        <Line X1="683" Y1="312"
-              X2="683" Y2="307"
+        <Line X1="683" Y1="242"
+              X2="683" Y2="237"
               Stroke="Gray"
               StrokeThickness="1.5"
               StrokeStartLineCap="Square" />
 
-        <Line X1="685" Y1="310"
-              X2="682" Y2="310"
+        <Line X1="685" Y1="240"
+              X2="682" Y2="240"
               Stroke="Gray"
               StrokeThickness="2"
               StrokeStartLineCap="Square"
               StrokeEndLineCap="Square" Height="450" Width="800" />
 
         <Ellipse Canvas.Left="675"
-                 Canvas.Top="306.5"
+                 Canvas.Top="236.5"
                  Width="7"
                  Height="7"
                  Fill="LawnGreen" />
         
         <!-- Emergency red circle -->
         <Ellipse Canvas.Left="692"
-                 Canvas.Top="304"
+                 Canvas.Top="234"
                  Width="7"
                  Height="7"
                  Stroke="Red" />
         
-        <TextBlock Margin="687,301.5,0,0" Foreground="Red" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
+        <TextBlock Margin="687,231.5,0,0" Foreground="Red" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
           E
         </TextBlock>
         
         
         <!--Line 3 -->
-        <!-- First track circuit (Extended to X2=780 to support the new point) -->
-        <Line X1="30" Y1="350"
-              X2="780" Y2="350"
+        <!-- First track circuit -->
+        <Line X1="30" Y1="280"
+              X2="780" Y2="280"
               Stroke="Gray"
               StrokeThickness="5"
               StrokeStartLineCap="Square"
               StrokeEndLineCap="Square" />
         
         <!--Line 4 -->
-        <!-- First track circuit (Extended to X2=780 to support the new point) -->
-        <Line X1="30" Y1="400"
-              X2="780" Y2="400"
+        <!-- First track circuit -->
+        <Line X1="30" Y1="330"
+              X2="780" Y2="330"
               Stroke="Gray"
               StrokeThickness="5"
               StrokeStartLineCap="Square"
