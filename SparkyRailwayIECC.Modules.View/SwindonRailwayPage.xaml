@@ -1001,6 +1001,26 @@
         <TextBlock Margin="687,301.5,0,0" Foreground="Red" FontWeight="Bold" FontFamily="Consolas" FontSize="10">
           E
         </TextBlock>
+        
+        
+        <!--Line 3 -->
+        <!-- First track circuit (Extended to X2=780 to support the new point) -->
+        <Line X1="30" Y1="350"
+              X2="780" Y2="350"
+              Stroke="Gray"
+              StrokeThickness="5"
+              StrokeStartLineCap="Square"
+              StrokeEndLineCap="Square" />
+        
+        <!--Line 4 -->
+        <!-- First track circuit (Extended to X2=780 to support the new point) -->
+        <Line X1="30" Y1="400"
+              X2="780" Y2="400"
+              Stroke="Gray"
+              StrokeThickness="5"
+              StrokeStartLineCap="Square"
+              StrokeEndLineCap="Square" />
+
 
     </Canvas>
 
