@@ -85,6 +85,7 @@
                    Fill="Gray" />
         
         <!-- Existing Point ( / Shape ) Angled more vertically and placed into the gap -->
+        <!-- [bottom-left] [bottom-right] [top-right] [top-left] -->
         <Polygon Points="402,223 408,223 422,187 416,187"
                  Fill="Gray" />
                  
